@@ -1,3 +1,4 @@
 # logstash
 # elsticsearch
 # kibana
+# redis
