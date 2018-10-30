@@ -192,7 +192,7 @@ template-tomcat.json
 ```
 
 ### 3-3) logstash 실행
-- 해당 명령으로 설정파일을 이용해서 기동하면 됩니다.
+- 해당 명령으로 설정파일을 이용해서 기동하면 된다.
 ```
 $LOGSTASH_HOME$/bin/logstash.bat -f logstash-tomcat.conf
 ```
@@ -207,7 +207,7 @@ $LOGSTASH_HOME$/bin/logstash.bat -f logstash-tomcat.conf
 ![image2018-10-26_18-51-45](https://user-images.githubusercontent.com/7076334/47734636-04568780-dcae-11e8-8db2-3fe5f848c50b.png)
 
 ### 4-1) elasticsearch 설치
-- elasticsearch Windows 버전도 별다르게 설치가 필요 없다. 압축을 풀고 실행시키면 됩니다.
+- elasticsearch Windows 버전도 별다르게 설치가 필요 없다. 압축을 풀고 실행시키면 된다.
 
 ### 4-2) 환경파일 구성
 - 분산 환경 설정으로 하면 좀더 복잡한 설정이 필요하지만 일단 단일 환경으로 구성했다.
