@@ -48,7 +48,7 @@ logback.xml
     <host>127.0.01</host>
     <port>6379</port>
     <key>tomcat</key>
-    <type>tmsengine</type>
+    <type>simjunbo</type>
     <source>local</source>
 </appender>
 <appender name="redis-logstash" class="ch.qos.logback.classic.AsyncAppender">
@@ -246,7 +246,7 @@ curl -XGET 127.0.0.1:9200/[indexkey]?pretty
   "log-tomcat-simjunbo-2018.10" : {
     "aliases" : { },
     "mappings" : {
-      "tmsengine" : {
+      "simjunbo" : {
         "properties" : {
           "@timestamp" : {
             "type" : "date",
