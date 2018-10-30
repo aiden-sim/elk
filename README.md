@@ -170,6 +170,8 @@ output {
 - output은 filter에서 가공한 데이터를 보내는 부분이다. 예제는 elasticsearch에 연동되어 있기 때문에 elasticsearch 정보가 입력되어 있다.
 - 그리고 output에서 가장 중요한 부분이 index 인데 서버 수집로그는 log-tomcat-simjunbo-2018.10 형태로 되어 있다.
 - stdin, stdout 은 로컬에서 연동테스트 하면서 추가한 것이다. stdin은 실제로 redis가 아닌 콘솔창에 데이터를 입력해볼 수 있으며 stdout은 입력된 데이터에 대해 정상처리 시, 콘솔에 출력된다.
+
+
 - output에서 설정되어 있는 template 부분이다. template를 사용하면 사전에 type mapping을 미리 선언하지 않고 패턴이나 특성에 맞춰서 구성할 수 있다.
 ```
 template-tomcat.json
