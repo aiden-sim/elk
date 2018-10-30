@@ -6,9 +6,9 @@
 - 그리고 logbak 환경은 spring으로..
 
 ## 2) logback => redis 연동
-### 2-1) redis 설치 및 실행
 ![image2018-10-26_18-43-10](https://user-images.githubusercontent.com/7076334/47732312-4af5b300-dca9-11e8-9437-279be0d1de81.png)
 
+### 2-1) redis 설치 및 실행
 - Windows 버전은 별다르게 설치가 필요 없다. 압축을 풀고 실행시키면 된다
 ```
 $REDIS_HOME$/redis-server
@@ -323,6 +323,7 @@ curl -XGET 127.0.0.1:9200/[indexkey]?pretty
 ```
 
 ### 5) kibana
+![image2018-10-26_18-53-3](https://user-images.githubusercontent.com/7076334/47735306-a165f000-dcaf-11e8-9b09-6760436ba827.png)
 
 ## 5-1) kibana 설치 
 - Windows 버전은 별다르게 설치가 필요 없다. 압축을 풀고 실행시키면 된다.
@@ -334,16 +335,16 @@ $KIBANA_HOME$/bin/kibana/config/kibana.yml
 ```
 
 ### kibana.yml
-![image2018-10-26_18-53-3](https://user-images.githubusercontent.com/7076334/47735306-a165f000-dcaf-11e8-9b09-6760436ba827.png)
+![image2018-10-29_11-19-11](https://user-images.githubusercontent.com/7076334/47735506-fb66b580-dcaf-11e8-975b-094a4bb6fd36.png)
 
 
 ## 5-3) kibana 실행
-- 해당 명령으로 기동하면 됩니다.
+- 해당 명령으로 기동하면 된다.
 ```
 $KIBANA_HOME$/bin/kibana
 ```
 
-- 정상적으로 기동 되면 다음과 같은 화면이 출력됩니다.
+- 정상적으로 기동 되면 다음과 같은 화면이 출력된다.
 
 ![image2018-10-29_11-3-24](https://user-images.githubusercontent.com/7076334/47735007-e63d5700-dcae-11e8-8b54-f90afc13c57a.png)
 
@@ -366,8 +367,8 @@ $KIBANA_HOME$/bin/kibana
 
 
 ## 기동순서는 다음과 같이
-- 1) redis
-- 2) elasticsearch
-- 3) logstash
-- 4) kibana
+- redis
+- elasticsearch
+- logstash
+- kibana
 
