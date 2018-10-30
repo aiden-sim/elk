@@ -98,7 +98,7 @@ $REDIS_HOME$/redis-cli
   "source": "local",
   "host": "SIMJUNBO",
   "path": null,
-  "type": "engine",
+  "type": "simjunbo",
   "tags": [],
   "message": "[200][GET][http://localhost:8080/api/test][0:0:0:0:0:0:0:1][message={test}][accept-language={ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7}&host={localhost:8080}&upgrade-insecure-requests={1}&connection={keep-alive}&accept-encoding={gzip, deflate, br}&user-agent={Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36}&accept={text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8}][][4][test2]",
   "@timestamp": "2018-10-26T15:08:25.536+0900",
