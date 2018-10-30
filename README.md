@@ -368,7 +368,7 @@ $KIBANA_HOME$/bin/kibana
 ![image2018-10-29_11-31-38](https://user-images.githubusercontent.com/7076334/47735171-521fbf80-dcaf-11e8-9e38-01fd33628cc9.png)
 
 
-## 기동순서는 다음과 같이
+## 기동순서
 - redis
 - elasticsearch
 - logstash
