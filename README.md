@@ -109,7 +109,7 @@ $REDIS_HOME$/redis-cli
 ```
 
 ## 3) redis => logstash 연동
-![image2018-10-26_18-43-46](https://user-images.githubusercontent.com/7076334/47733895-9067af80-dcac-11e8-9098-3bf20aebc5fd.png)
+![111](https://user-images.githubusercontent.com/7076334/47736246-a166ef80-dcb1-11e8-89f7-cb53bc60b268.png)
 
 ### 3-1) logstash 설치
 - logstash도 Windows 버전은 별다르게 설치가 필요 없다. 압축만 풀어주면 된다.
@@ -204,7 +204,7 @@ $LOGSTASH_HOME$/bin/logstash.bat -f logstash-tomcat.conf
 ※ 참고로 redis와 elasticsearch가 먼저 기동되어 있어야 한다.
 
 ## 4) logstash => elasticsearch 연동
-![image2018-10-26_18-51-45](https://user-images.githubusercontent.com/7076334/47734636-04568780-dcae-11e8-8db2-3fe5f848c50b.png)
+![222](https://user-images.githubusercontent.com/7076334/47736244-a0ce5900-dcb1-11e8-8fa6-512bd5f3360e.png)
 
 ### 4-1) elasticsearch 설치
 - elasticsearch Windows 버전도 별다르게 설치가 필요 없다. 압축을 풀고 실행시키면 된다.
@@ -325,7 +325,7 @@ curl -XGET 127.0.0.1:9200/[indexkey]?pretty
 ```
 
 ### 5) elasticsearch => kibana 
-![image2018-10-26_18-53-3](https://user-images.githubusercontent.com/7076334/47735306-a165f000-dcaf-11e8-9b09-6760436ba827.png)
+![333](https://user-images.githubusercontent.com/7076334/47736245-a0ce5900-dcb1-11e8-8e84-bf31973dbf1a.png)
 
 ## 5-1) kibana 설치 
 - Windows 버전은 별다르게 설치가 필요 없다. 압축을 풀고 실행시키면 된다.
