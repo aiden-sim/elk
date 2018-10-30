@@ -28,7 +28,7 @@ $REDIS_HOME$/redis-server
 
 
 ### web.xml
-- 주의 점은 web.xml에 logback-redis-appender 라이브러리가 꼭 추가되어 있어야 한다.. 해당 라이브러리가 정상적으로 추가되지 않으면 redis로 전송이 되지 않을 뿐만 아니라 별도의 에러가 나지 않아서 원인을 찾기도 쉽지 않다.
+- 주의 점은 web.xml에 logback-redis-appender 라이브러리가 꼭 추가되어 있어야 한다. 해당 라이브러리가 정상적으로 추가되지 않으면 redis로 전송이 되지 않을 뿐만 아니라 별도의 에러가 나지 않아서 원인을 찾기도 쉽지 않다.
 ```
 web.xml
 <!-- logstash -->
@@ -80,7 +80,7 @@ type,source | logstash 설정파일에서 field로 사용
 
 ### 2-3) Redis 데이터 확인
 - 실제 request를 발생 시켜서 logback을 통해 redis에 정상적으로 저장되었는지 확인해 본다.
-- redis-cli를 이용해서 접속해서 확인가능합니다. 또는 FastoRedis 같은 GUI 툴을 사용 ( 나는 FastoRedis 이용 )
+- redis-cli를 이용해서 접속해서 확인가능하다. 또는 FastoRedis 같은 GUI 툴을 사용 ( 나는 FastoRedis 이용 )
 ```
 $REDIS_HOME$/redis-cli
 ```
@@ -119,7 +119,7 @@ $LOGSTASH_HOME$/bin/logstash-tomcat.conf
 ```
 
 ### 3-2) 환경파일 구성
-- 우리가 logback에서 설정했던 type, source등이 여기서 사용됩니다.
+- 우리가 logback에서 설정했던 type, source등이 여기서 사용된다.
 ```
 logstash-tomcat.conf
 input {
@@ -239,8 +239,8 @@ $ELASTIC_SEARCH$/bin/elasticsearch
 curl -XGET 127.0.0.1:9200/[indexkey]?pretty
 ```
 
-- 내 로컬에서는 index를 log-tomcat-simjunbo-2018.10 으로 생성했기 때문에 curl -XGET 127.0.0.1:9200/log-tomcat-simjunbo-2018.10?pretty 로 조회 했다..
-- 뒤에 pretty 명령어를 붙여주면 json 형태로 정렬되서 보여줍니다.
+- 내 로컬에서는 index를 log-tomcat-simjunbo-2018.10 으로 생성했기 때문에 curl -XGET 127.0.0.1:9200/log-tomcat-simjunbo-2018.10?pretty 로 조회 했다.
+- 뒤에 pretty 명령어를 붙여주면 json 형태로 정렬되서 보여준다.
 
 ```
 조회결과
