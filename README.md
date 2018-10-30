@@ -201,7 +201,7 @@ $LOGSTASH_HOME$/bin/logstash.bat -f logstash-tomcat.conf
 
 ※ 참고로 redis와 elasticsearch가 먼저 기동되어 있어야 한다.
 
-## 4) elasticsearch
+## 4) logstash => elasticsearch 연동
 ![image2018-10-26_18-51-45](https://user-images.githubusercontent.com/7076334/47734636-04568780-dcae-11e8-8db2-3fe5f848c50b.png)
 
 ### 4-1) elasticsearch 설치
@@ -322,7 +322,7 @@ curl -XGET 127.0.0.1:9200/[indexkey]?pretty
 }
 ```
 
-### 5) kibana
+### 5) elasticsearch => kibana 
 ![image2018-10-26_18-53-3](https://user-images.githubusercontent.com/7076334/47735306-a165f000-dcaf-11e8-9b09-6760436ba827.png)
 
 ## 5-1) kibana 설치 
