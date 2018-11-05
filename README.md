@@ -373,4 +373,3 @@ $KIBANA_HOME$/bin/kibana
 - elasticsearch
 - logstash
 - kibana
-
